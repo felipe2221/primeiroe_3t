@@ -4,16 +4,33 @@ body {
 }
 
 .calculadora {
-    background: rgb(255, 244, 145);
+    background: rgb(104, 101, 80);
     width: 200px;
     color: black;
     padding: 20px;
     border-radius: 30px;
     text-align: center;
-    box-shadow: 10px 10px rgba(216, 201, 71, 0.808);
+    box-shadow: 10px 10px rgba(38, 4, 233, 0.808);
+}
+
+.calculadoraESG {
+    background: rgb(170, 14, 66);
+    width: 200px;
+    color: rgb(61, 61, 61);
+    padding: 20px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 10px 10px rgba(248, 0, 227, 0.808);
 }
 
 .calculadora input {
+    background: rgba(212, 204, 204, 0.307);
+    color: rgba(0, 0, 0, 0.739);
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.calculadoraESG input {
     background: rgba(212, 204, 204, 0.307);
     color: rgba(0, 0, 0, 0.739);
     border-radius: 10px;
